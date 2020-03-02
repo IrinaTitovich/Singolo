@@ -1,0 +1,70 @@
+body{
+    font-size: 12px;
+    font-family: 'Lato', sans-serif;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    width: 100%;
+    max-width: 1020px;
+    margin: auto;
+}
+.header{
+    background-color: #2d303a;
+    height: 15vh;
+}
+.header_links{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 15vh;
+}
+.logo{
+    text-transform: uppercase;
+    color: white;
+    width: 100px;
+    font-size: 25px;
+}
+.logo span{
+    color: #f06c64;
+}
+
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+    left: 0px;
+}
+.nav_a{
+        text-transform: uppercase;
+    color: white;
+    }
+
+.nav_first-child{
+    color:#f06c64;
+        text-transform: uppercase;
+}
+
+.slider{
+    background-color: #f06c64;
+    height: 85vh;
+}
+.slider-img{
+    display: flex;
+    
+}
+.img_iphone_vert{
+    width: 50%;
+
+}
+.img_iphone_hor{
+    width: 50%;
+   
+    
+}
