@@ -53,18 +53,46 @@ a{
 
 .slider{
     background-color: #f06c64;
-    height: 85vh;
+    height: 100vh;
 }
 .slider-img{
-    display: flex;
-    
+    width: 100%;
+    position: relative;
+    justify-content: space-between;
 }
 .img_iphone_vert{
     width: 50%;
-
+   position: absolute;
 }
 .img_iphone_hor{
     width: 50%;
-   
-    
+    right: 0;
+    position: absolute;
+}
+
+.our_services_blocs{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.os1{
+    width: 100%;
+}
+.os2{
+    width: 33%;
+}
+.os3{
+    width: 33%;
+}
+.os4{
+    width: 33%;
+}
+.os5{
+    width: 33%;
+}
+.os6{
+    width: 33%;
+}
+.os7{
+    width: 33%;
 }
