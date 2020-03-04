@@ -11,7 +11,7 @@ a{
 }
 .container{
     width: 100%;
-    max-width: 1020px;
+    max-width: 950px;
     margin: auto;
 }
 .header{
@@ -70,29 +70,63 @@ a{
     position: absolute;
 }
 
+.our_services{
+    height: 500px;
+    padding-top: 60px;
+}
+
 .our_services_blocs{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    color: #767e9e;
+}
+
+.our_services h1{
+    font-size: 30px;
+    padding:0 10px 20px;
+    font-weight: 900;
+}
+.our_services_blocs h2{
+    font-size: 18px;
+   padding: 0 5px 10px 10px;
+   font-weight: 900;
+}
+.our_services_blocs p{
+    font-size: 12px;
+    line-height: 2;
+    padding: 0 5px 30px 10px;
+}
+.os1>p{
+    font-size: 18px;
+    
 }
 .os1{
     width: 100%;
+    padding: 0 20px 30px 10px;
 }
 .os2{
     width: 33%;
-}
+    display: flex;
+    }
+
 .os3{
     width: 33%;
-}
+    display: flex;
+    }
 .os4{
     width: 33%;
-}
+    display: flex;
+    }
 .os5{
     width: 33%;
-}
+    display: flex;
+    }
 .os6{
     width: 33%;
-}
+    display: flex;
+    }
 .os7{
     width: 33%;
-}
+    display: flex;
+    }
